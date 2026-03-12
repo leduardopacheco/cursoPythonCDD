@@ -1,5 +1,10 @@
 # Python para Ciencia de Dados: do zero ate EDA
 
+## Equipe
+- Alexsandro Lopes - 2323215
+- Luiz Eduardo Pacheco - 2310314
+- Gregory Jereissati - 2320425
+
 Repositorio com o material didatico de um curso introdutorio de Python aplicado a Ciencia de Dados, desenvolvido como atividade extensionista da disciplina de Ciencia de Dados.
 
 ## Objetivo
@@ -54,8 +59,3 @@ Use Google Colab ou Jupyter Notebook.
 ```bash
 pip install pandas matplotlib seaborn notebook
 ```
-
-## Equipe
-- Luiz Eduardo Alencar Pacheco
-- Alexsandro Lopes
-- Gregory Jereissati
