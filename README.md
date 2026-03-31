@@ -16,10 +16,13 @@ Oferecer formacao basica em programacao, manipulacao, visualizacao e analise exp
 - Iniciantes interessados em Python e Ciencia de Dados
 
 ## Estrutura do repositorio
-- `planejamento/`: documento da Entrega 1
+- `planejamento/`: documentos das entregas e organizacao geral
 - `slides/`: apresentacoes por modulo
 - `notebooks/`: notebooks comentados e funcionais
-- `exercicios/`: listas de exercicios e gabaritos
+- `notebooks/modulo-1/`: fundamentos de Python
+- `notebooks/modulo-2/`: introducao ao Pandas, limpeza e manipulacao de dados
+- `notebooks/modulo-3/`: visualizacao com Matplotlib, Seaborn e primeira versao da EDA
+- `exercicios/`: listas de exercicios e gabaritos por modulo
 - `datasets/`: conjuntos de dados usados nas atividades
 - `materiais-complementares/`: links e referencias
 
@@ -36,11 +39,13 @@ Oferecer formacao basica em programacao, manipulacao, visualizacao e analise exp
 - Leitura e tratamento de dados
 - Transformacoes basicas
 - Estatistica descritiva
+- Uso guiado de `EquipeA_escola.csv` e `EquipeE_cidades.csv`
 
 ### Modulo 3 - Visualizacao de Dados
 - Fundamentos de visualizacao
 - Graficos com Matplotlib e Seaborn
 - Comunicacao visual
+- Separacao entre teoria, pratica e preparacao da EDA
 
 ### Modulo 4 - EDA
 - Perguntas norteadoras
