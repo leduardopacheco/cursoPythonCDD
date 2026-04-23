@@ -1,0 +1,51 @@
+id,nome,curso,cidade,estado,nota_1,nota_2,nota_3,nota_4,media_final,frequencia_pct,ano_ingresso,horas_estudo_semana,salario_esperado,aprovado
+1,Ana Silva,Ciência de Dados,São Paulo,SP,8.4,5.5,4.8,4.6,5.82,94,2021,32,12674,Não
+2,Bruno Santos,Ciência de Dados,São Paulo,SP,4.6,5.4,7.6,7.4,6.25,94,2024,33,6611,Sim
+3,Carla Oliveira,Inteligência Artificial,Belo Horizonte,MG,8.9,4.0,8.8,8.2,7.48,81,2023,18,5547,Sim
+4,Diego Lima,Sistemas de Informação,Rio de Janeiro,RJ,4.6,4.6,9.1,7.6,6.47,62,2024,12,11785,Não
+5,Emília Costa,Análise de Dados,Rio de Janeiro,RJ,7.3,9.0,7.7,9.2,8.3,96,2022,9,14543,Sim
+6,Felipe Rocha,Ciência de Dados,Salvador,BA,8.6,9.9,9.1,9.2,9.2,84,2023,28,10428,Sim
+7,Gabriela Mendes,Engenharia de Software,Curitiba,PR,6.1,8.0,8.2,8.1,7.6,64,2022,20,11751,Não
+8,Henrique Ferreira,Engenharia de Software,Manaus,AM,6.3,9.9,7.8,7.3,7.83,80,2021,7,6752,Sim
+9,Isabela Alves,Sistemas de Informação,Recife,PE,5.6,5.3,9.7,9.3,7.47,80,2022,36,13738,Sim
+10,João Pereira,Análise de Dados,Manaus,AM,4.9,4.8,8.5,7.2,6.35,97,2024,30,12560,Sim
+11,Karen Souza,Sistemas de Informação,Salvador,BA,10.0,4.8,7.0,8.5,7.58,67,2022,15,13280,Não
+12,Lucas Martins,Análise de Dados,Belém,PA,4.4,6.3,10.0,7.2,6.97,95,2021,12,14145,Sim
+13,Marina Nunes,Inteligência Artificial,Belo Horizonte,MG,8.6,6.0,5.8,4.9,6.32,60,2023,16,11201,Não
+14,Nicolas Barbosa,Inteligência Artificial,Rio de Janeiro,RJ,9.2,5.8,7.8,7.7,7.62,69,2023,39,5646,Não
+15,Olivia Castro,Inteligência Artificial,São Paulo,SP,7.6,6.9,4.7,6.2,6.35,79,2022,20,3949,Sim
+16,Paulo Rodrigues,Inteligência Artificial,Rio de Janeiro,RJ,4.5,6.9,4.4,8.6,6.1,68,2022,35,13809,Não
+17,Quezia Moura,Inteligência Artificial,Fortaleza,CE,5.6,9.2,6.5,5.3,6.65,94,2022,24,14680,Sim
+18,Rafael Carvalho,Análise de Dados,Curitiba,PR,6.6,7.1,4.7,5.3,5.92,81,2021,40,12638,Não
+19,Sara Monteiro,Engenharia de Software,Belém,PA,5.3,4.4,7.8,5.4,5.72,62,2023,37,4160,Não
+20,Thiago Gomes,Engenharia de Software,Belo Horizonte,MG,8.0,5.3,4.8,9.6,6.93,96,2024,35,6981,Sim
+21,Ursula Peixoto,Análise de Dados,Salvador,BA,4.6,8.0,6.1,6.5,6.3,63,2021,30,3993,Não
+22,Victor Rezende,Sistemas de Informação,Rio de Janeiro,RJ,5.5,5.1,6.7,6.5,5.95,77,2024,9,7092,Não
+23,Wanda Teixeira,Análise de Dados,Porto Alegre,RS,4.6,7.9,7.2,4.1,5.95,65,2022,31,5724,Não
+24,Xande Freitas,Análise de Dados,Manaus,AM,5.3,6.4,4.4,6.3,5.6,84,2023,23,10454,Não
+25,Yasmin Lopes,Análise de Dados,Porto Alegre,RS,8.0,6.9,5.1,5.3,6.33,63,2021,8,8138,Não
+26,Zeca Cardoso,Ciência de Dados,Belém,PA,6.9,9.5,7.2,4.3,6.97,92,2021,9,6044,Sim
+27,Aline Nascimento,Inteligência Artificial,Rio de Janeiro,RJ,8.1,5.4,4.7,9.3,6.88,75,2021,10,13147,Sim
+28,Bernardo Vieira,Análise de Dados,Belém,PA,7.4,5.9,5.6,8.0,6.72,80,2022,30,7351,Sim
+29,Cecília Dias,Engenharia de Software,Belo Horizonte,MG,6.7,9.6,9.6,4.1,7.5,99,2021,39,4200,Sim
+30,Daniel Correia,Engenharia de Software,Porto Alegre,RS,5.6,9.6,9.3,9.3,8.45,83,2023,33,5584,Sim
+31,Elisa Campos,Inteligência Artificial,Belo Horizonte,MG,7.7,9.9,7.9,4.0,7.38,95,2023,11,13868,Sim
+32,Fernando Assis,Engenharia de Software,Belo Horizonte,MG,4.7,4.6,7.3,5.6,5.55,98,2022,26,14757,Não
+33,Giulia Moreira,Engenharia de Software,Belo Horizonte,MG,7.0,5.5,9.4,4.3,6.55,100,2024,7,7533,Sim
+34,Hugo Araújo,Ciência de Dados,Curitiba,PR,8.6,7.8,5.6,8.4,7.6,95,2024,5,12189,Sim
+35,Ingrid Pacheco,Ciência de Dados,Rio de Janeiro,RJ,9.7,8.1,4.9,4.2,6.72,83,2022,13,10041,Sim
+36,Julio Cunha,Ciência de Dados,Belo Horizonte,MG,6.2,9.6,9.8,4.2,7.45,82,2022,20,14174,Sim
+37,Kelly Ramos,Ciência de Dados,Curitiba,PR,8.7,9.3,6.4,7.7,8.03,69,2022,16,5662,Não
+38,Leonardo Farias,Análise de Dados,São Paulo,SP,5.1,9.5,8.7,6.5,7.45,75,2023,11,5608,Sim
+39,Milena Xavier,Análise de Dados,São Paulo,SP,9.2,5.3,8.9,6.8,7.55,79,2022,6,6652,Sim
+40,Nelson Brito,Engenharia de Software,Recife,PE,6.0,9.2,9.8,5.7,7.67,92,2024,39,14133,Sim
+41,Odete Pinto,Sistemas de Informação,São Paulo,SP,4.7,9.8,5.1,9.8,7.35,76,2021,32,4776,Sim
+42,Pedro Vasconcelos,Sistemas de Informação,Curitiba,PR,6.6,9.9,4.7,9.4,7.65,72,2023,32,3727,Não
+43,Raquel Saraiva,Ciência de Dados,Porto Alegre,RS,9.6,7.2,8.3,8.5,8.4,72,2023,9,10066,Não
+44,Sérgio Esteves,Sistemas de Informação,Belém,PA,5.9,9.1,8.3,5.8,7.28,79,2024,30,8344,Sim
+45,Tatiana Macedo,Sistemas de Informação,Porto Alegre,RS,4.8,6.5,9.6,8.1,7.25,71,2023,40,9653,Não
+46,Ulisses Henrique,Ciência de Dados,Belo Horizonte,MG,5.7,6.6,7.5,7.9,6.93,89,2024,18,10244,Sim
+47,Vera Leite,Inteligência Artificial,Manaus,AM,8.8,9.8,8.4,8.0,8.75,78,2023,20,4530,Sim
+48,Wagner Andrade,Sistemas de Informação,Salvador,BA,8.8,4.9,4.3,9.9,6.97,99,2021,31,10461,Sim
+49,Ximena Guedes,Inteligência Artificial,Salvador,BA,8.3,6.3,6.4,4.9,6.47,60,2021,19,9965,Não
+50,Yago Batista,Engenharia de Software,Porto Alegre,RS,6.8,7.3,9.5,4.7,7.08,68,2024,38,13937,Não
