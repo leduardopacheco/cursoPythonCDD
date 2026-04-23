@@ -1,102 +1,152 @@
-# 🐍 curso-python-ciencia-dados
+# Curso Introdutório de Python para Ciência de Dados
 
-Bem-vindo ao repositório do **Curso de Python para Ciência de Dados**! Aqui você encontrará todos os materiais necessários para acompanhar as aulas, praticar com exercícios e aprofundar seus conhecimentos em análise de dados com Python.
+Repositório oficial do **Curso Introdutório de Python para Ciência de Dados**, desenvolvido como Atividade Extensionista da disciplina **T326 - Ciência de Dados | UNIFOR**.
+
+**Instrutores:** Equipe E  
+**Professora:** Rilder de Sousa Pires  
+**Dataset principal:** Brazilian Cities — 5.578 municípios brasileiros
 
 ---
 
-## 📦 Como clonar o repositório
+## Como executar
 
-Certifique-se de ter o [Git](https://git-scm.com/) instalado na sua máquina. Depois, execute:
+Certifique-se de ter o [Git](https://git-scm.com/) e o [Python 3.8+](https://www.python.org/) instalados.
 
 ```bash
 git clone https://github.com/SaulSantos1/curso-python-ciencia-dados.git
-```
+cd curso-python-ciencia-dados-main
 
-Em seguida, entre na pasta do projeto:
-
-```bash
-cd curso-python-ciencia-dados
-```
-
-> 💡 **Recomendação:** Crie um ambiente virtual antes de instalar as dependências.
-
-```bash
 python -m venv venv
 source venv/bin/activate        # Linux/macOS
 venv\Scripts\activate           # Windows
 
-pip install -r requirements.txt  # caso exista um arquivo de dependências
+pip install pandas numpy matplotlib seaborn jupyter
+jupyter notebook
 ```
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
-curso-python-ciencia-dados/
+curso-python-ciencia-dados-main/
 │
-├── datasets/                  # Conjuntos de dados utilizados nas aulas
-├── exercicios/                # Exercícios práticos para fixação do conteúdo
-├── notebooks/                 # Jupyter Notebooks com as aulas e exemplos
-├── slides/                    # Apresentações de apoio às aulas
-├── README.md                  # Este arquivo
-└── materiais_complementares.txt  # Links e referências extras
+├── modulo-1/                        # Módulo 1: Fundamentos de Python
+│   ├── notebooks/
+│   │   └── aula_01_python_basico.ipynb
+│   ├── exercicios/
+│   │   └── exercicios_aula_01.ipynb
+│   ├── datasets/
+│   │   └── dataset_alunos.csv
+│   ├── slides/
+│   │   ├── Curso_Introdutório_de_Python_para_Ciência_de_Dados.pdf
+│   │   └── Fundamentos_de_Python_-_Módulo_1.pdf
+│   └── materiais_complementares.txt
+│
+├── modulo-2/                        # Módulo 2: Manipulação de Dados
+│   ├── notebook/
+│   │   └── modulo2.ipynb
+│   ├── exercicios/
+│   │   └── gabarito_exercicios_modulo2.ipynb
+│   ├── datasets/
+│   │   └── brazilian_city.csv
+│   └── slides/
+│       └── Desenvolvimento Base.pdf
+│
+├── modulo-3/                        # Módulo 3: Visualização de Dados
+│   ├── notebook/
+│   │   └── modulo3.ipynb
+│   ├── exercicios/
+│   │   └── gabarito_exercicios_modulo3.ipynb
+│   ├── datasets/
+│   │   └── brazilian_city.csv
+│   └── slides/
+│       └── Desenvolvimento Base.pdf
+│
+├── modulo-4/                        # Módulo 4: Análise Exploratória de Dados (EDA)
+│   ├── notebook/
+│   │   └── modulo4.ipynb
+│   └── exercicios/
+│       └── gabarito_exercicios_modulo4.ipynb
+│
+├── projeto-final/                   # Projeto Final: EDA Completa
+│   ├── primeira_versao_eda.ipynb    # Versão inicial (definição do problema)
+│   └── analise_final_eda.ipynb     # Análise completa com insights
+│
+└── README.md                        # Este arquivo
 ```
 
-### 📂 Detalhamento das pastas
+---
 
-| Pasta                          | Descrição                                                                                                                                   |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `datasets/`                    | Arquivos de dados (CSV, Excel, JSON etc.) usados nos exemplos e exercícios. Sempre que um notebook referenciar um dataset, ele estará aqui. |
-| `exercicios/`                  | Atividades práticas organizadas por módulo ou aula. Tente resolvê-las antes de consultar as soluções!                                       |
-| `notebooks/`                   | Coração do curso. Jupyter Notebooks com explicações, código comentado e visualizações de cada tema abordado.                                |
-| `slides/`                      | Material de apoio visual das aulas, útil para revisar conceitos rapidamente.                                                                |
-| `materiais_complementares.txt` | Curadoria de links, artigos, documentações e recursos externos para quem quer ir além.                                                      |
+## Ementa do Curso
+
+### Módulo 1 — Fundamentos de Python
+- Sintaxe básica, variáveis e tipos de dados
+- Estruturas condicionais, repetição e estruturas de dados
+- Boas práticas de programação
+
+### Módulo 2 — Manipulação de Dados com Pandas
+- Introdução ao Pandas e leitura de dados
+- Limpeza, tratamento e transformação de dados
+- Estatística descritiva básica
+
+### Módulo 3 — Visualização de Dados e Storytelling
+- Fundamentos de visualização
+- Gráficos com Matplotlib e Seaborn
+- Comunicação visual e boas práticas
+
+### Módulo 4 — Análise Exploratória de Dados (EDA)
+- Definição do problema e perguntas norteadoras
+- Análise univariada, bivariada e multivariada
+- Storytelling com dados e comunicação de insights
+
+### Projeto Final
+- Dataset real: Brazilian Cities (5.578 municípios brasileiros)
+- Problema: Determinantes do IDHM Municipal
+- 6 perguntas norteadoras respondidas com visualizações e insights
 
 ---
 
-## 🚀 Como aproveitar melhor o curso
+## Dataset Principal
 
-### 1. Siga a ordem dos notebooks
+**Brazilian Cities** — Dados socioeconômicos de todos os 5.578 municípios brasileiros.
 
-Os notebooks em `notebooks/` foram organizados de forma progressiva. Comece pelo primeiro e avance conforme o conteúdo for ficando confortável.
-
-### 2. Pratique com os exercícios
-
-Após cada aula, acesse a pasta `exercicios/` e tente resolver as atividades correspondentes. A prática constante é o que consolida o aprendizado em programação e ciência de dados.
-
-### 3. Explore os datasets
-
-Além dos exemplos das aulas, experimente explorar os arquivos em `datasets/` por conta própria — crie visualizações, calcule estatísticas e formule perguntas sobre os dados.
-
-### 4. Use os slides como revisão rápida
-
-Os slides em `slides/` são ótimos para revisitar um conceito antes de uma prova, entrevista ou projeto pessoal.
-
-### 5. Vá além com os materiais complementares
-
-O arquivo `materiais_complementares.txt` traz recursos selecionados para aprofundar temas específicos. Consulte sempre que quiser expandir seu conhecimento além do que é coberto no curso.
+| Variável | Descrição |
+|----------|-----------|
+| `CITY` / `STATE` | Nome da cidade e UF |
+| `IDHM` | Índice de Desenvolvimento Humano Municipal |
+| `IDHM_Renda`, `IDHM_Longevidade`, `IDHM_Educacao` | Componentes do IDHM |
+| `GDP_CAPITA` | PIB per capita (R$) |
+| `POP_FINAL` | População (censo ou estimada) |
+| `AREA` | Área em km² |
+| `CAPITAL` | 1 se é capital estadual, 0 caso contrário |
 
 ---
 
-## 🛠️ Pré-requisitos sugeridos
+## Pré-requisitos
 
 - Python 3.8+
 - Jupyter Notebook ou JupyterLab
-- Bibliotecas comuns: `pandas`, `numpy`, `matplotlib`, `seaborn`
+- Bibliotecas: `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 ---
 
-## 🤝 Contribuições
+## Como Aproveitar o Curso
 
-Encontrou um erro ou quer sugerir melhorias? Abra uma _issue_ ou envie um _pull request_. Toda contribuição é bem-vinda!
-
----
-
-## 📄 Licença
-
-Este projeto é de uso educacional. Consulte o repositório para informações sobre licenciamento.
+1. **Siga a ordem dos módulos** — o conteúdo é progressivo
+2. **Tente os exercícios antes do gabarito** — a prática consolida o aprendizado
+3. **Explore o dataset por conta própria** — formule suas próprias perguntas
+4. **Use os slides para revisão rápida** — ótimos antes de provas ou entrevistas
 
 ---
 
-> Feito com 💙 por [SaulSantos1](https://github.com/SaulSantos1)
+## Links Úteis
+
+- [Documentação do Pandas](https://pandas.pydata.org/docs/)
+- [Documentação do Matplotlib](https://matplotlib.org/stable/contents.html)
+- [Documentação do Seaborn](https://seaborn.pydata.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+
+---
+
+*Desenvolvido com dedicação pela Equipe E — T326 Ciência de Dados | UNIFOR*
